@@ -54,7 +54,7 @@ There are three job submission script files provided:
 - **script_2.sh** for **HW4-V2.cpp**
 - **script_3.sh** for **HW4-V3.cpp**
 
-The only difference between these scripts is the source file used for the job. All other features are identical.
+The only difference between these scripts is the source file used for the job. All other features are identical. The script for each source file is run 3 times to get the 3 rounds for that source file.
 
 ## Compilation
 

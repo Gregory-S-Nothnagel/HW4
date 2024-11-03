@@ -1,0 +1,32 @@
+setting asax scratch directory
+
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: script_3.sh
+  The time limit is 1:00:00 HH:MM:SS.
+  The target directory is: /home/ualclsd0186/HW4
+  The working directory is:  /scratch-local/ualclsd0186.HW4-V3-ROUND_2.203701.asax-pbs1
+  The memory limit is: 1gb
+  The job will start running after: 202410300008.27
+  Job Name: HW4-V3-ROUND_2
+  Queue: -q class -W group_list=classq
+  Constraints:
+  Using  20  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu
+  Cores:  20
+  Command typed:
+/scripts/run_script_mpi script_3.sh
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N HW4-V3-ROUND_2 -a 202410300008.27 -r n -M gsnothnagel@crimson.ua.edu -l walltime=1:00:00 -l select=20:mpiprocs=1:mem=50mb
+
+HW4-V3.cpp: In function 'int main(int, char**)':
+HW4-V3.cpp:99:21: warning: unused variable 'req_count' [-Wunused-variable]
+   99 |                 int req_count = 0;
+      |                     ^~~~~~~~~
+last iteration: 5000, time: 706.851
+last iteration: 5000, time: 354.247
+last iteration: 5000, time: 177.828
+last iteration: 5000, time: 91.2526
+last iteration: 5000, time: 71.5994
+last iteration: 5000, time: 36.6536

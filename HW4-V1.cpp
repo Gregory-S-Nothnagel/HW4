@@ -1,5 +1,27 @@
-// https://youtu.be/OGez4VNYhJA?si=wxPu4PcLq44skIzU
+/*
 
+Gregory Nothnagel
+gsnothnagel@crimson.ua.edu 
+CS 581
+Homework #4
+
+To Compile, run the following script:
+
+	#!/bin/bash
+	source /apps/profiles/modules_asax.sh.dyn
+	module load openmpi
+
+	mpicxx -O3 -march=native -flto -funroll-loops -ffast-math -Wall -o HW4-V1 HW4-V1.cpp
+ 
+To Run, use the following command:
+
+	mpirun -n <NUM_PROCESSES> ./HW4-V1 <BOARD_SIZE> <MAX_ITERATIONS> <BOARD_OUTPUT_PATH>
+	
+For more details, see "Compilation" section of README.md in the github repo
+
+* Then you can inspect the board output file to confirm that everything looks as expected
+
+*/
 
 #include <mpi.h>
 #include <iostream>
